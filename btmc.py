@@ -21,8 +21,8 @@ gpus = tf.config.list_physical_devices('GPU')
 
 # Model paths (preserving lowercase and typo)
 model_paths = [
-    "Models/efficientnetv2b0.keras",
-    "Models/Convnexttiny.keras"
+    "models/efficientnetv2b0.keras",
+    "models/convnexttiny.keras"
 ]
 
 # Load models
